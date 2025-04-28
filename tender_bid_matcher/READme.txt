@@ -21,9 +21,7 @@ scikit-learn: For NLP-based matching of tenders and company profiles using TF-ID
 SMTP (Gmail): For sending email notifications for high-match tenders.
 
 Project Structure
-bash
-Copy
-Edit
+
 tender_bid_matcher/
 ├── app.py                      # Main Streamlit application
 ├── scraper/
@@ -44,17 +42,11 @@ Make sure you have Python installed on your machine. If not, you can download it
 Steps to Set Up
 Clone this repository:
 
-bash
-Copy
-Edit
 git clone https://github.com/your-username/tender-bid-match-recommender.git
 cd tender-bid-match-recommender
 Install dependencies: Create a virtual environment (optional but recommended):
 Install the required libraries:
 
-bash
-Copy
-Edit
 pip install -r requirements.txt
 Update your sample_profile.txt with your company details (see the "Sample Profile" section below).
 
@@ -87,9 +79,6 @@ The results are displayed in an interactive dashboard. You can search for specif
 Sample Profile
 Here is an example of the content you can use for testing:
 
-diff
-Copy
-Edit
 Company Name: BuildTech Solutions Pvt Ltd
 
 Core Competencies:
